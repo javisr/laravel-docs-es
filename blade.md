@@ -894,7 +894,7 @@ La función anónima debe devolver una cadena. Si la cadena devuelta corresponde
 <a name="additional-dependencies"></a>
 #### Dependencias Adicionales
 
-Si tu componente requiere dependencias del [contenedor de servicios](https://laravel.com/docs/{{version}}/container) de Laravel, puedes enumerarlas antes de cualquier atributo de datos del componente y serán inyectadas automáticamente por el contenedor:
+Si tu componente requiere dependencias del [contenedor de servicios](docs/{{version}}/container) de Laravel, puedes enumerarlas antes de cualquier atributo de datos del componente y serán inyectadas automáticamente por el contenedor:
 
 ```php
 use App\Services\AlertCreator;

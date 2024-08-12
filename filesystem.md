@@ -736,7 +736,7 @@ Para definir un sistema de archivos personalizado necesitarás un adaptador de F
 composer require spatie/flysystem-dropbox
 ```
 
-A continuación, puedes registrar el controlador dentro del método `boot` de uno de los [proveedores de servicios](https://laravel.com/docs/{{version}}/providers) de tu aplicación. Para lograr esto, debes usar el método `extend` de la fachada `Storage`:
+A continuación, puedes registrar el controlador dentro del método `boot` de uno de los [proveedores de servicios](docs/{{version}}/providers) de tu aplicación. Para lograr esto, debes usar el método `extend` de la fachada `Storage`:
 
     <?php
 

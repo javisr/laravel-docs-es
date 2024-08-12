@@ -604,7 +604,7 @@ Si tu tarjeta requiere un estilo adicional más allá de las clases y componente
 <a name="custom-card-styling-vite"></a>
 #### Integración de Laravel Vite
 
-Si tu tarjeta personalizada vive dentro de la base de código de tu aplicación y estás usando la [integración de Vite](https://laravel.com/docs/{{version}}/vite), puedes actualizar tu archivo `vite.config.js` para incluir un punto de entrada CSS dedicado para tu tarjeta:
+Si tu tarjeta personalizada vive dentro de la base de código de tu aplicación y estás usando la [integración de Vite](docs/{{version}}/vite), puedes actualizar tu archivo `vite.config.js` para incluir un punto de entrada CSS dedicado para tu tarjeta:
 
 ```js
 laravel({

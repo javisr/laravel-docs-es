@@ -186,7 +186,7 @@ public function boot(): void
 <a name="authentication-guard"></a>
 #### Guard de Autenticación
 
-Puedes personalizar el guard de autenticación utilizado por Fortify dentro del archivo de configuración `fortify` de tu aplicación. Sin embargo, debes asegurarte de que el guard configurado sea una implementación de `Illuminate\Contracts\Auth\StatefulGuard`. Si estás intentando usar Laravel Fortify para autenticar un SPA, deberías usar el guard `web` por defecto de Laravel en combinación con [Laravel Sanctum](https://laravel.com/docs/sanctum).
+Puedes personalizar el guard de autenticación utilizado por Fortify dentro del archivo de configuración `fortify` de tu aplicación. Sin embargo, debes asegurarte de que el guard configurado sea una implementación de `Illuminate\Contracts\Auth\StatefulGuard`. Si estás intentando usar Laravel Fortify para autenticar un SPA, deberías usar el guard `web` por defecto de Laravel en combinación con [Laravel Sanctum](docs/sanctum).
 
 <a name="customizing-the-authentication-pipeline"></a>
 ### Personalizando el Pipeline de Autenticación

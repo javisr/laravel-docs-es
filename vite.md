@@ -67,7 +67,7 @@ node -v
 npm -v
 ```
 
-Puedes instalar fácilmente la última versión de Node y NPM utilizando instaladores gráficos simples desde [el sitio web oficial de Node](https://nodejs.org/en/download/). O, si estás usando [Laravel Sail](https://laravel.com/docs/{{version}}/sail), puedes invocar Node y NPM a través de Sail:
+Puedes instalar fácilmente la última versión de Node y NPM utilizando instaladores gráficos simples desde [el sitio web oficial de Node](https://nodejs.org/en/download/). O, si estás usando [Laravel Sail](docs/{{version}}/sail), puedes invocar Node y NPM a través de Sail:
 
 ```sh
 ./vendor/bin/sail node -v
